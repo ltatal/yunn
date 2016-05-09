@@ -1,0 +1,79 @@
+body {
+    background-color: #000;
+}
+
+.topnav {
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.topnav li {
+    display: inline;
+}
+
+.topnav a {
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+
+.topnav a:hover {
+    color: #E33F3F;
+}
+
+.topnav span {
+    padding-right: 10px;
+}
+
+.jumbotron {
+    width: 1280px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000 url(images/4.jpg) center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: auto;
+}
+
+.jumbotron h1 {
+    line-height: 1em;
+    font-size: 34px;
+    padding-top: 150px;
+    padding-left: 450px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.jumbotron p {
+    text-align: center;
+    padding-left: 520px;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+}
+
+.jumbotron .bottom {
+    padding-left: 980px;
+    color: #000;
+    border-radius: 5px 20px;
+}
+
+.jumbotron a {
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#jumbotron {
+    display: table;
+}
+
+#container {
+    display: jumbotron-container;
+    vertical-align: middle;
+}

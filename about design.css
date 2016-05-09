@@ -1,0 +1,136 @@
+body {
+    background-color: #fff;
+}
+
+.topnav {
+    padding-top: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+.topnav li {
+    display: inline;
+}
+
+.topnav a {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+.topnav a:hover {
+    color: #E33F3F;
+}
+
+.topnav span {
+    padding-right: 10px;
+}
+
+.pic1 {
+    height: 600px;
+    background-image: url(images/design/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center .txt h1 {
+    padding-top: 10px;
+}
+
+.center .txt p {
+    font-size: 12px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.center img {
+    min-height: 100%;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 160px;
+}
+
+.center img {
+    padding-top: 350px;
+    width: 1400px;
+    height: 1290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.scroll {
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 20px;
+}
+
+.scroll-image {
+    background-position: top center;
+    background-size: cover;
+    transition: background-position 1s ease;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.scroll-image:before {
+    padding-top: 56.25%;
+    content: " ";
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.scroll-image:hover {
+    background-position: bottom center;
+    transition: background-position 1s ease;
+}
+
+.img1 {
+    background-image: url(images/design/01.jpg)
+}
+
+.img2 {
+    background-image: url(images/design/02.jpg);
+}
+
+.img3 {
+    background-image: url(images/design/03.jpg);
+}
+
+.top {
+    padding-top: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.top a {
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: #FF8C8C;
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+}
+
+.topnav {
+    background-color: #000;
+    padding-top: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+.topnav li {
+    display: inline;
+}
+
+.topnav a {
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+
+.topnav a:hover {
+    color: #E33F3F;
+}
+
+.topnav span {
+    padding-right: 10px;
+}
+
+.center {
+    padding-top: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: center;
+}
+
+.center a {
+    color: #079BBA;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif, 微軟正黑體;
+}
+
+.center a:hover {
+    color: #57DFAE;
+}

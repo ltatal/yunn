@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+.images {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.center {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div {
+    +filter: grayscale(100%);
+}
+
+body {
+    background-color: #FFF;
+    font-family:
+}
+
+h3 {
+    padding-top: 60px;
+}
+
+li {
+    background-color: #fff;
+    opacity=60;
+}
+
+.glyphicon {
+    padding-right: 25px;
+    font-size: 15px;
+}
+
+.glyphicon-home {
+    color: #fff;
+}
+
+.glyphicon-user {
+    color: #D7D7D7;
+}
+
+.container a {
+    font-family: sans-serif;
+    color: #BCBCBC;
+    font-weight: bold;
+}
+
+.center {
+    position: static;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.center img {
+    min-height: 100%;
+    width: 100%;
+}
+
+.txt h2 {
+    text-align: center;
+}
+
+.txt1 h3 {
+    text-align: center;
+}
+
+.txt1 p {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.images {
+    padding-top: 20px;
+}
+
+#left {
+    width: 350px;
+    height: 200px;
+    background-color: ;
+}
+
+#center {
+    width: 350px;
+    height: 200px;
+    background-color: ;
+}
+
+#right {
+    width: 350px;
+    height: 200px;
+    background-color: ;
+}
+
+#left2 {
+    width: 350px;
+    height: 200px;
+    background-color: green;
+}
+
+#center2 {
+    width: 350px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#right2 {
+    width: 350px;
+    height: 200px;
+    background-color: green;
+}
+
+.row {
+    margin: 0px auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+    position: static;
+}
+
+#pic05 {
+    padding-top: 10px;
+}
+
+.scroll {
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 20px;
+}
+
+.scroll-image {
+    background-position: top center;
+    background-size: cover;
+    transition: background-position 1s ease;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.scroll-image:before {
+    padding-top: 56.25%;
+    content: " ";
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.scroll-image:hover {
+    background-position: bottom center;
+    transition: background-position 1s ease;
+}
+
+.img1 {
+    background-image: url(images/design/01.jpg)
+}
+
+.img2 {
+    background-image: url(images/design/02.jpg);
+}
+
+.img3 {
+    background-image: url(images/design/03.jpg);
+}
+
+.top {
+    padding-top: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.top a {
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: #FF8C8C;
+}

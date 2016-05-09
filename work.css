@@ -1,0 +1,219 @@
+    .nav {
+        background-color: #034757;
+        height: 120px;
+        font-family: 'Shift',
+    }
+    
+    .nav a {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+    }
+    
+    .nav li {
+        display: inline;
+    }
+    
+    .nav .container {
+        padding: 20px;
+    }
+    
+    .nav h2 {
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    .jumbotron {
+        height: 660px;
+        background-color: #26C5B3;
+    }
+    
+    .jumbotron .image1 {
+        background-image: url(photo/profile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 300px;
+    }
+    
+    .jumbotron h1 {
+        padding-top: 10px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    .jumbotron hr {
+        width: 25%;
+        height: 110%;
+    }
+    
+    .jumbotron h2 {
+        padding-top: 10px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    .jumbotron p {
+        color: #fff;
+        text-align: center;
+    }
+    
+    .protfolio h1 {
+        color: #0D548F;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    .protfolio p {
+        color: #0D548F;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    .protfolio .container {
+        position: relative;
+    }
+    
+    .protfolio .row {
+        display: block;
+        max-width: 80%;
+        height: 700px;
+        margin-left: -25px;
+        margin-right: -25px;
+        position: relative;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border: hidden;
+    }
+    
+    .about {
+        background-color: #26C5B3;
+        padding-top: 20px;
+        height: 500px;
+    }
+    
+    .about h1 {
+        color: #fff;
+        font-size: 50px;
+        padding-top: 60px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    .about .container {
+        position: relative;
+        width: 800px;
+    }
+    
+    .about h2 {
+        font-size: 30px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .about p {
+        color: #fff;
+        text-align: left;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .about .btn-outline {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: 000;
+        border: solid 2px #fff;
+    }
+    
+    .about a {
+        color: #104860;
+        padding: 15px 20px 15px 20px;
+    }
+    
+    .contact_me h1 {
+        color: #034757;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .form-group {
+        width: 50%;
+        display: block;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .row control-group {
+        height: 500px;
+    }
+    
+    #email {
+        height: 80px;
+    }
+    
+    #name {
+        height: 80px;
+    }
+    
+    #phone {
+        height: 80px;
+    }
+    
+    .contact_me .btn-outline {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: #2DC099;
+    }
+    
+    #btn-outline a:hover {
+        color: #03B9AF;
+    }
+    
+    .footer {
+        height: 350px;
+        background-color: #2E536E;
+    }
+    
+    .footer .row {
+        position: relative;
+        width: 80%;
+        text-align: center;
+        padding-left: 15%;
+    }
+    
+    .footer h2 {
+        padding-top: 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .footer p {
+        font-size: 20px;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    
+    .last {
+        height: 70px;
+        background-color: #1C2A3C;
+    }
+    
+    .last p {
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+    }
