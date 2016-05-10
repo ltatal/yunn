@@ -36,7 +36,7 @@ body {
 
 .center .photo {
     padding-top: 50px;
-    padding-left: 350px;
+    padding-left: 20%;
     -ms-transform: rotate(-20deg);
     /* IE 9 */
     -webkit-transform: rotate(20deg);
@@ -49,4 +49,21 @@ body {
     color: #fff;
     font-family: 微軟正黑體, sans-serif;
     padding-right: 50px;
+}
+
+.top {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.top a {
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: #FF8C8C;
 }
